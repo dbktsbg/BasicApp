@@ -25,7 +25,7 @@
   <access origin="http://127.0.0.1:81" subdomains="true" />
   <access origin="http://localhost:61365" subdomains="true" />
 
-   <preference name="phonegap-version" value="2.9.0" />
+   <preference name="phonegap-version" value="2.5.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
