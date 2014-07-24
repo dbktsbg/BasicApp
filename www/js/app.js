@@ -3,7 +3,7 @@ jQuery
     (
         function ()
         {
-            alert("7/24/2014 4:04pm");
+            //alert("7/24/2014 4:04pm");
 
             //MaxHeightInPixels: $(window).height(),
 

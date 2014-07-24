@@ -492,7 +492,7 @@ ButtonViewModel.prototype =
                     (
                         {
                             "color": this.Foreground,
-                            "background-color": "red"
+                            "background-color": "transparent"
                         }
                     )
             ;
