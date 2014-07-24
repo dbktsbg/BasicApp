@@ -3,13 +3,13 @@
 <widget
   xmlns = "http://www.w3.org/ns/widgets"
   xmlns:gap = "http://phonegap.com/ns/1.0"
-  id = "com.dbktsbg.device"
-  version = "1.0.9">
+  id = "com.dbktsbg.basicapp"
+  version = "1.0.0">
   
-    <name>Device Playground</name>
+    <name>Basic App</name>
 
     <description>
-        Sample application that interacts with device.
+        Sample application.
     </description>
 
     <!--<author href="http://meridiaars.com" email="support@phonegap.com">
@@ -25,7 +25,7 @@
   <access origin="http://127.0.0.1:81" subdomains="true" />
   <access origin="http://localhost:61365" subdomains="true" />
 
-   <preference name="phonegap-version" value="2.2.0" />
+   <preference name="phonegap-version" value="2.9.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
