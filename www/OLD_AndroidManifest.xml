@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest>
+
+  <!--<manifest
+  android:versionCode="1"
+  android:versionName="1.0"
+  package="com.example.bluetoothchat"
+  xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+  <uses-feature 
+    android:name="android.hardware.camera" />
+
+  <uses-permission 
+    android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  
+  <uses-permission 
+    android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  
+  <uses-permission 
+    android:name="android.permission.CAMERA" />
+
+  
+  <application>
+
+    <receiver 
+      android:name=".BootReciever">
+      
+      <intent-filter >
+        
+        <action 
+          android:name="android.intent.action.BOOT_COMPLETED"/>
+      
+      </intent-filter>
+    
+    </receiver>
+    
+  </application>
+   
+</manifest>
+
