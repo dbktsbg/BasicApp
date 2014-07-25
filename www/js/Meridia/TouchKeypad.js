@@ -349,9 +349,9 @@ ButtonViewModel.prototype =
                     .css
                     (
                         {
-                            "position": "absolute",
-                            "left": "30%",
-                            "top": "15%"
+                            //"position": "absolute",
+                            //"left": "30%",
+                            //"top": "15%"
                         }
                     )
                     .text
